@@ -1,0 +1,245 @@
+html, body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.login-container{
+  padding: 0;
+  margin: 0;
+  height: 90%;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: #242645;
+  color: #fff;
+  font-family: 'Source Sans Pro';
+  background-size: 100%;
+  /*首页展示图片地址*/
+  background-image: url(./../img/login1.jpg);
+}
+.login-wrap , .register-wrap , .register-success{
+  text-align: center;
+  width: 240px;
+  height: 300px;
+}
+.register-wrap input{
+  position: relative;
+  left: 10px;
+}
+.register-wrap button{
+  position: relative;
+  left: 10px;
+}
+.login-wrap button{
+  margin-left: 30px;
+}
+input {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid #888;
+  padding: 5px 25px 5px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+p {
+  color: #43732a;
+  float: left;
+  margin-left: 90px;
+}
+
+button {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  border: none;
+  background-color: #2dcac3;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+span {
+  cursor: pointer;
+  font-size: 12px;
+  bottom: 5px;
+  position: absolute;
+  left: 5px;
+}
+
+span:hover {
+  color: #41b883;
+}
+body .login
+{
+  top: 20px;
+  transition-property: transform,opacity,box-shadow,top,left;
+  transform-origin: 161px 100%;
+  transform: rotateX(0deg);
+  position: relative;
+  width: 520px;
+  height: 300px;
+  position: absolute;
+  right: 40%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  padding: 5px 55px 40px 20px;
+  background: linear-gradient(230deg, rgba(53, 57, 74, 0) 0%, rgb(165, 165, 157) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(53, 57, 74, 0)', endColorstr='rgb(0, 0, 0)',GradientType=1 );
+}
+
+.login_fields_user, .login_fields_password
+{
+  position: relative;
+  height: 55px;
+}
+
+.login_fields_user .icon , .login_fields_password .icon{
+  float: left;
+  width: 20px;
+  margin-top: 10px;
+}
+
+.errorMsg{
+  height: 20px;
+  font-size: 10px;
+  color: red;
+  margin-left: 20px;
+  background-color: #ccbbbb;
+  border: 1px solid red;
+}
+
+.deleteIcon{
+  position: absolute;
+  right: 16px;
+  top: 5px;
+  width: 20px;
+  height: 30px;
+  color: #c9bdbd;
+  font-size: 20px;
+}
+
+.welcome{
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.home{
+  background-color: #f7fcfd;
+  height: 60px;
+}
+.push-button{
+  background-color: #23765fa6;;
+  height: 60px;
+}
+.push-button a:hover{
+  color: red;
+}
+.school-moudle p:hover{
+  color: red;
+}
+.quit{
+  float: right;
+  margin-right: 200px;
+  margin-top: 20px;
+  text-decoration:none;
+  color: #726a6a;
+}
+
+.separate{
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.system-name{
+  float: left;
+  margin-left: 100px;
+  font-family: "楷体";
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.commodity {
+  background: #f5f5f5;
+  height: 300px;
+  width: 62%;
+  float: left;
+  margin: 5px 5px 5px 130px;
+}
+.container {
+  position: relative;
+  height: 300px;
+}
+.main-box{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.face-wrapper{
+  /*margin: 10px;*/
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 330px;
+  margin-top: 20px;
+}
+.face-wrapper img{
+  position: absolute;
+}
+.face-wrapper canvas{
+  display: none;
+}
+.face{
+  margin: 20px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 330px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.login-wrap span{
+  bottom: 15px;
+  left: 25px;
+}
+.alive-check-box{
+  position: absolute;
+  width: 15px;
+  left: 140px;
+  top: 5px;
+}
+.login_fields_password label{
+  position: absolute;
+  left: 30px;
+  top: 12px;
+}
+.passwordLogin{
+  width: 80px;
+  position: absolute;
+}
+.faceLogin{
+  width: 100px;
+  left: 100px;
+  position: relative;
+}
+.active-title{
+  position: relative;
+  font-size: 15px;
+  left: 1px;
+  color: #1d12ba;
+}
